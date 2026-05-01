@@ -1,0 +1,44 @@
+@import 'tailwindcss';
+@font-face {
+    font-family: 'Montserrat';
+    src: url("./fonts/Montserrat-VariableFont_wght.ttf");
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+section {
+    padding: 20px;
+    border: 2px solid;
+    border-color: #0094FF;
+    border-radius: 15px;
+    width: 100%;
+}
+
+button {
+    color: white;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+
+button:disabled {
+    color: rgb(193, 192, 192);
+}
+
+button:active {
+    color: white;
+}
+.addbutton.post{
+    font-size: 24px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #216CFF;
+}
+.addbutton.comment{
+    font-size: 16px;
+    padding-right: 19px;
+    padding-left: 19px;
+    background-color: #216CFF;
+}
